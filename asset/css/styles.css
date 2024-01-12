@@ -1,0 +1,192 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Start CSS Navbar */
+#navbar {
+  background-color: #217C58;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+.navbar-nav {
+  margin-left: auto; 
+}
+.navbar-brand img {
+  width: 80px; 
+}
+.navbar-nav .nav-link {
+  color: #000000;
+  margin-right: 15px;
+}
+.navbar-nav .nav-link:hover {
+  color: #217C58; 
+}
+.dropdown-menu {
+  background-color: #217C58; 
+}
+.dropdown-item {
+  color: #ffffff; /
+}
+.dropdown-item:hover {
+  background-color: #2c3e50; 
+  color: #ffffff; 
+}
+.btn-navbar .button-masuk {
+  background-color: #217C58; 
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+}
+.btn-navbar .button-masuk:hover {
+  background-color: #27ae60; 
+}
+
+/* End CSS Navbar */
+
+.card {
+    display: flex;
+}
+.card img {
+    flex: 0 0 auto;
+    margin-right: 0px;
+}
+.card-body {
+    flex: 1; 
+}
+
+/* Start CSS Hero */
+
+#hero {
+  background-color: #d1dcc3;
+  height: 800px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+.section-header {
+  padding: 60px;
+  height: 550px;
+}
+.hero-tagline h4 {
+  color: #2f401b;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+.hero-tagline p {
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #253215;
+}
+.img-hero {
+  width:90%;
+}
+.subtext-image img {
+  width: auto;
+  height: 400px; 
+  object-fit: cover; 
+  display: block;
+}
+/* End CSS Hero */
+
+.section-choose{
+  padding-bottom: 100px;
+}
+
+/* Start CSS fitur-sorm section */
+#fitur-sorm {
+  background-color: #f8f9fa; 
+  padding: 80px; 
+}
+.text-title {
+  color: #262729; 
+}
+.desc-lkp-sorm {
+  color: #6c757d;
+}
+.card {
+  border: 1px solid #dee2e6; 
+  border-radius: 10px; 
+  overflow: hidden;
+}
+.card-title {
+  color: #217C58; 
+  margin-bottom: 15px;
+}
+.card-text {
+  color: #000000; 
+  flex-grow: 1;
+}
+.btn {
+  align-self: flex-end;
+}
+.btn-primary {
+  background-color: #217C58; 
+  border-color: #217C58; 
+  color: #fff; 
+}
+.btn-primary:hover {
+  background-color: #42ad82; 
+  border-color: #42ad82; 
+}
+/* End CSS fitur sorm */
+
+#join-sorm {
+  display: flex;
+  align-items: center;
+  padding: 80px;
+}
+#join-sorm .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#join-sorm img {
+  max-width: 38%;
+  margin-right: 10px; 
+}
+.card.border-0 {
+  height: 100%; 
+}
+.card-img {
+  margin: 22px 0;
+  width: 100%; 
+  height: auto;
+  object-fit: cover; 
+}
+.card-body {
+  padding: 1.25rem; 
+}
+.card-title {
+  font-size: 1.25rem;
+}
+.card-text {
+  font-size: 1rem; 
+}
+/* Start CSS Article */
+#article {
+  padding: 60px;
+}
+/* End CSS Article */
+
+/* Start CSS Footer*/
+footer {
+  background-color: #DAF3E8;
+}
+.desc {
+    text-align: justify;
+}
+.title-footer {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+li a{
+  color: #606060;
+  text-decoration: none;
+}
+/* End CSS Footer */
